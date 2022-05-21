@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CountryDetails">
+
+    <ImageView
+        android:id="@+id/flagDetail"
+        android:layout_width="214dp"
+        android:layout_height="130dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/nameDetail"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Tên nước"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/populationDetail"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Dân số"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/areaDetail"
+        android:layout_width="311dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Diện tích"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/capitalDetail"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Thủ đô"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/mapDetail"
+        android:layout_width="342dp"
+        android:layout_height="226dp" />
+
+</LinearLayout>
